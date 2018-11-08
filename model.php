@@ -2,22 +2,19 @@
 
 $produit = [ 
     [
-        "nom" => "Fayolle",
-        "description" => "Estelle",
-        "img" => "bla",
-        "prix" => 24,
+        "nom" => "Renard1",
+        "description" => "gfjhgfjhklgfd,h;gf,jkm",
+        "prix" => 100,
     ],
 
     [
-        "nom" => "Fayolle",
-        "description" => "Estelle",
-        "img" => "bla",
+        "nom" => "Renard2",
+        "description" => "Estfdffdfdfdsfddfselle",
         "prix" => 24,
     ],
     [
-        "nom" => "Fayolle",
-        "description" => "Estelle",
-        "img" => "bla",
-        "prix" => 24,
+        "nom" => "Renard3",
+        "description" => "gfghhfghjhgjhgjhg",
+        "prix" => 5000,
     ],
 ];

@@ -3,7 +3,7 @@
   <ul>
     <li><a href="homeVente.php">Home</a></li>
     <li><a href="listProduit.php">List de Produits</a></li>
-    <li><a href="">Panier</a></li>
+    <li><a href="panier.php">Panier</a></li>
     <li><a href="contact.php">Contact</a></li>
     <li><a href="logout.php">Logout</a></li>
 

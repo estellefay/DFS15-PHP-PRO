@@ -10,10 +10,10 @@ if (isset($_POST['name'])) {
     $_SESSION['email'] = $_POST['email'];
     $_SESSION['password'] = $_POST['password'];
     $_SESSION['age'] = $_POST['age'];
-
+  
 }
 
-var_dump($_SESSION);
+
 
 
 ?>

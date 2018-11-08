@@ -9,9 +9,18 @@ function verif() {
         } else {
             // header('Location: login.php');
             // exit();
-            return false;
+            return true;
          }
     }   
+ }
+
+
+ function verifEmail() {
+     if  (preg_match ( " /^[^\W][a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\@[a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\.[a-zA-Z]{2,4}$/ " , $_POST['email'])) {
+     return true;
+     } else {
+        return false;
+    }
  }
 
 ?>

@@ -1,0 +1,81 @@
+
+
+
+
+
+/* --------- NAVBAR ------------- */
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200,300);
+
+*,*:after,*:before {
+  padding:0;margin:0;outline:0;
+}
+body {
+  background:rgba(0,0,0,.95);
+  color: white;
+  font-family:'Exo 2',sans-serif;
+}
+.O_o,.o_O {width:100%;}
+.o_O {
+  text-align:center;
+  padding-top:100px;
+}
+.O_o {
+  background:#000;
+}
+li {
+  display:inline-block;
+  min-width:130px;
+  margin-left:-2px;
+  margin-right:-2px;
+  height:40px;
+  line-height:40px;
+  background:transparent;
+  transition:all .1s linear;
+}
+.navabar {
+  width:200px;
+  height:35px;
+  background:transparent;
+  text-align:center;
+  border:0;
+}
+li,.navabar {
+  font-family:'Exo 2',sans-serif;
+  font-weight:200; 
+  font-size:23px;
+  text-transform:uppercase;
+  color:#0F9;
+}
+li a {
+  text-decoration:none;
+  color:#FFF;
+}
+li:hover {border-bottom:1px solid #0F9;}
+li:last-child {border:0;}
+
+@media all and (max-width:725px)
+{
+  li{
+    min-width:0;
+    padding:0 10px 0 10px;
+  }
+}
+@media all and (max-width:600px)
+{
+  .o_O {
+    background:#000;
+    padding-top:20px;
+    padding-bottom:30px;
+  }
+  li {
+    width:90%;
+    padding:0;
+  }
+  .navabar {text-align:center;}
+  li:hover {
+    border:0;
+    padding:0 5px 0 5px;
+    background:#0F9;
+  }
+  li:last-child {background:#000;}
+}
